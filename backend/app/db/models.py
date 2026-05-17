@@ -65,5 +65,3 @@ class Usage(Base):
 
     # relationship
     user: Mapped["User"] = relationship(back_populates="usage")
-    
-    
